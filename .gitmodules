@@ -1,3 +1,0 @@
-[submodule "deps/micro-agent"]
-	path = deps/micro-agent
-	url = https://github.com/hsfl/cosmosv5-micro-agent.git
