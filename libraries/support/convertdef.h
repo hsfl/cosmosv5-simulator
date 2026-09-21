@@ -641,6 +641,9 @@ namespace Cosmos {
             //! Transform between LVLH and GEOC
             quaternion l2g; //!< Rotation quaternion: LVLH to Geocentric
             quaternion g2l; //!< Rotation quaternion: Geocentric to LVLH
+            //! Transform between LVLH and SELC
+            quaternion l2s; //!< Rotation quaternion: LVLH to Selenocentric (Moon-fixed)
+            quaternion s2l; //!< Rotation quaternion: Selenocentric (Moon-fixed) to LVLH
             rmatrix l2p; //!< Rotation matrix: LVLH to perifocal frame
             rmatrix p2l; //!< Rotation matrix: perifocal to LVLH
             rmatrix dl2p; //!< First time derivative of l2p [1/s]
